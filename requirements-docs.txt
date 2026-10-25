@@ -1,0 +1,3 @@
+# Dependencies used only for documentation and PDF generation.
+# Application runtime dependencies will be added in a later milestone.
+reportlab>=4.2.0

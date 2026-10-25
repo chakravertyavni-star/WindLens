@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+
+# Local secrets and environment
+.env
+.env.local
+.env.*.local
+dev.env
+frontend/.env.development
+frontend/.env.production
+frontend/.env.local
+*.pem
+
+# Keep examples committable
+!.env.example
+!frontend/.env.example
+!frontend/.env.production.example
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated investigation scratch, keep committed JSON summaries
+*.log

@@ -1,0 +1,190 @@
+{
+  "investigated_at_utc": "2026-10-25T14:56:13.723613+00:00",
+  "base_url": "https://data.elexon.co.uk/bmrs/api/v1",
+  "probes": {
+    "fuelhh_january_2026_wind": {
+      "status": 200,
+      "error": null,
+      "summary": {
+        "record_count": 1488,
+        "settlement_date_count": 31,
+        "first_settlement_date": "2026-01-01",
+        "last_settlement_date": "2026-01-31",
+        "datasets": {
+          "FUELHH": 1488
+        },
+        "fuel_types": {
+          "WIND": 1488
+        },
+        "start_time_minute_counts": {
+          "30": 744,
+          "00": 744
+        },
+        "missing_generation_count": 0,
+        "generation_min": 1695,
+        "generation_max": 17805,
+        "dates_with_missing_settlement_periods_1_to_48": {},
+        "sample_first": {
+          "dataset": "FUELHH",
+          "publishTime": "2026-02-01T00:00:00Z",
+          "startTime": "2026-01-31T23:30:00Z",
+          "settlementDate": "2026-01-31",
+          "settlementPeriod": 48,
+          "fuelType": "WIND",
+          "generation": 8849
+        },
+        "sample_last": {
+          "dataset": "FUELHH",
+          "publishTime": "2026-01-01T00:30:00Z",
+          "startTime": "2026-01-01T00:00:00Z",
+          "settlementDate": "2026-01-01",
+          "settlementPeriod": 1,
+          "fuelType": "WIND",
+          "generation": 13756
+        }
+      }
+    },
+    "windfor_publish_day_2025_12_31": {
+      "status": 200,
+      "error": null,
+      "summary": {
+        "record_count": 584,
+        "datasets": {
+          "WINDFOR": 584
+        },
+        "unique_publish_time_count": 8,
+        "publish_times": [
+          "2025-12-31T02:30:00Z",
+          "2025-12-31T04:30:00Z",
+          "2025-12-31T07:30:00Z",
+          "2025-12-31T09:30:00Z",
+          "2025-12-31T11:30:00Z",
+          "2025-12-31T15:30:00Z",
+          "2025-12-31T18:30:00Z",
+          "2025-12-31T22:30:00Z"
+        ],
+        "start_time_min": "2025-12-30T21:00:00Z",
+        "start_time_max": "2026-01-02T21:00:00Z",
+        "start_time_minute_counts": {
+          "00": 584
+        },
+        "january_2026_start_time_count": 368,
+        "missing_generation_count": 0,
+        "horizon_hours_min": -25.5,
+        "horizon_hours_max": 66.5,
+        "fields_observed": [
+          "dataset",
+          "generation",
+          "publishTime",
+          "startTime"
+        ],
+        "sample_first": {
+          "dataset": "WINDFOR",
+          "publishTime": "2025-12-31T22:30:00Z",
+          "startTime": "2025-12-30T21:00:00Z",
+          "generation": 6086
+        },
+        "sample_last": {
+          "dataset": "WINDFOR",
+          "publishTime": "2025-12-31T02:30:00Z",
+          "startTime": "2026-01-02T21:00:00Z",
+          "generation": 17949
+        }
+      }
+    },
+    "windfor_publish_window_2026_01_30_early": {
+      "status": 200,
+      "error": null,
+      "summary": {
+        "record_count": 146,
+        "datasets": {
+          "WINDFOR": 146
+        },
+        "unique_publish_time_count": 2,
+        "publish_times": [
+          "2026-01-30T02:30:00Z",
+          "2026-01-30T04:30:00Z"
+        ],
+        "start_time_min": "2026-01-29T21:00:00Z",
+        "start_time_max": "2026-02-01T21:00:00Z",
+        "start_time_minute_counts": {
+          "00": 146
+        },
+        "january_2026_start_time_count": 102,
+        "missing_generation_count": 0,
+        "horizon_hours_min": -7.5,
+        "horizon_hours_max": 66.5,
+        "fields_observed": [
+          "dataset",
+          "generation",
+          "publishTime",
+          "startTime"
+        ],
+        "sample_first": {
+          "dataset": "WINDFOR",
+          "publishTime": "2026-01-30T04:30:00Z",
+          "startTime": "2026-01-29T21:00:00Z",
+          "generation": 14103
+        },
+        "sample_last": {
+          "dataset": "WINDFOR",
+          "publishTime": "2026-01-30T02:30:00Z",
+          "startTime": "2026-02-01T21:00:00Z",
+          "generation": 6320
+        }
+      }
+    },
+    "windfor_latest_unfiltered": {
+      "status": 200,
+      "error": null,
+      "summary": {
+        "record_count": 74,
+        "datasets": {
+          "WINDFOR": 74
+        },
+        "unique_publish_time_count": 1,
+        "publish_times": [
+          "2026-10-25T11:30:00Z"
+        ],
+        "start_time_min": "2026-10-24T20:00:00Z",
+        "start_time_max": "2026-10-27T21:00:00Z",
+        "start_time_minute_counts": {
+          "00": 74
+        },
+        "january_2026_start_time_count": 0,
+        "missing_generation_count": 0,
+        "horizon_hours_min": -15.5,
+        "horizon_hours_max": 57.5,
+        "fields_observed": [
+          "dataset",
+          "generation",
+          "publishTime",
+          "startTime"
+        ],
+        "sample_first": {
+          "dataset": "WINDFOR",
+          "publishTime": "2026-10-25T11:30:00Z",
+          "startTime": "2026-10-24T20:00:00Z",
+          "generation": 19245
+        },
+        "sample_last": {
+          "dataset": "WINDFOR",
+          "publishTime": "2026-10-25T11:30:00Z",
+          "startTime": "2026-10-27T21:00:00Z",
+          "generation": 21221
+        }
+      }
+    },
+    "fuelhh_invalid_combined_filters": {
+      "status": 400,
+      "error": "{\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"\":[\"The Settlement Date fields cannot be set when a Publish Date field is set.\"]},\"traceId\":\"00-463c3cac1c6b935c59e7f6b934c83c04-a55e32ef20dd4d5e-00\"}",
+      "note": "Docs say settlement-date filters cannot be combined with publish-date filters."
+    },
+    "windfor_undocumented_start_time_filter": {
+      "status": 200,
+      "error": null,
+      "record_count": 146,
+      "note": "startTime is not a documented WINDFOR/stream query parameter. Any effect is unverified and must not be relied on."
+    }
+  }
+}
